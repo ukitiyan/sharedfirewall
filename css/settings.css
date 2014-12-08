@@ -1,0 +1,42 @@
+td.status > span {
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	vertical-align: text-bottom;
+}
+
+td.remove>img { visibility:hidden; padding-top:7px; }
+tr:hover>td.remove>img { visibility:visible; cursor:pointer; }
+#addRecord>td { border:none; }
+
+#firewallTable td.status {
+	width: 50px;
+}
+#firewallTable td.path {
+	width: 200px;
+}
+#firewallTable td.accept{
+	white-space: normal;
+	padding-left: 0px;
+}
+
+#firewallTable td input.ipaddress {
+	width: 400px;
+}
+
+#firewallTable td.accept input.added {
+	margin-right: 6px;
+}
+
+#firewallTable label > input[type="checkbox"] {
+	margin-right: 3px;
+}
+
+#firewallTable td.applicable div.chzn-container {
+	position: relative;
+	top: 3px;
+}
+
+#firewallTable td.status .success {
+	border-radius: 50%;
+}

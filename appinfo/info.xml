@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<info>
+    <id>sharedfirewall</id>
+    <name>Shared Firewall</name>
+    <description>Sharing forlder settings firewall app</description>
+    <licence>AGPL</licence>
+    <author>Begood Technology Corp.</author>
+    <version>0.0.1</version>
+    <requiremin>7</requiremin>
+</info>
